@@ -1,0 +1,40 @@
+:root{
+    --maincolor: #4b4e6D;
+    --secondary-color: #92D8A9;
+    --contarst-color: #F3F3F3;
+    --light-color: #BECEC5;
+    --darkcolor: #222222;
+}
+
+body{
+  display: flex;
+  flex-direction:row;
+  vertical-align:auto;  
+  padding: 1vw, 1vw, 0px, 1vw;
+
+
+
+}
+
+header{
+    background-color: var(--maincolor);
+    border-radius: 2px;
+    
+}
+header h1{
+    color: var(--contarst-color);
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.main-wrapper{
+    display: flex;
+    
+}
